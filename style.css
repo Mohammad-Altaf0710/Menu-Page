@@ -1,0 +1,140 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffdf7;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+header {
+  background-color: #e63946;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.left, .right {
+  flex: 1 1 50%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-bottom: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+
+.section h2 {
+  color: #1d3557;
+  border-bottom: 2px solid #a8dadc;
+  padding-bottom: 0.5rem;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item .price {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.highlight-note {
+  background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%);
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-top: -0.25rem;
+  margin-bottom: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 5rem;
+    border-top-left-radius: 5rem;
+  }
+
+  .food-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .food-gallery{
+    width: 1400px;
+    height: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  }
+  .img-tri{
+    display: flex;
+    width: auto;
+    margin: 0px;
+  }
+  .left-btm-edge{
+    border-bottom-left-radius: 15rem;
+  }
+  .right-btm-edge{
+    border-bottom-right-radius: 15rem;
+  }
+
+  /* .top-right-edge{
+    border-top-right-radius: 5rem;
+  }
+  .top-left-edge{
+    border-top-left-radius: 5rem;
+  } */
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .left, .right {
+    flex: 1 1 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
+
